@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Enviar a Discord</title>
+  <link rel="stylesheet" href="styles/style.css">
+  
+</head>
+<body>
+  <h1>Analizador de intención de enviar mensaje a Discord</h1>
+  <textarea id="userInput" rows="5" cols="50" placeholder="Escribe algo como 'Quiero enviar esto al Discord'..."></textarea>
+  <br>
+  <button onclick="analyzeDiscordIntent()">Analizar</button>
+
+  <div id="loader" style="display: none;">Analizando...</div>
+  <div id="response"></div>
+  <script src="src/script.js"></script>
+</body>
+</html>
